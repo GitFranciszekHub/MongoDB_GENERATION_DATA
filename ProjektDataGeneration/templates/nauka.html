@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+    function hrefeDoListaPacjenci(){
+        window.location.href="/listaPacjenci"
+    }
+    async function fetchData() {
+        try {
+            // Pobierz dane z pliku JSON
+            const response = await fetch('/static/dane.json');
+
+            // Sprawdź, czy odpowiedź z serwera była prawidłowa
+            if (!response.ok) {
+                throw new Error('Błąd w pobieraniu danych');
+            }
+
+            // Konwersja odpowiedzi do formatu JSON
+            const data = await response.json();
+
+            // Pobierz dane z pliku JSON
+            const SaturacjaTlenem = data.SaturacjaTlenem;
+            const wartoscOddechu = data.CzestoscOddechu;
+            const wartoscPuls = data.Puls;
+            const wartoscTemperaturaCiala = data.TemperaturaCiala;
+            const wartoscPoziomPotasu = data.PoziomPotasu;
+            const wartoscKonsumpcjaTlenu = data.KonsumpcjaTlenu;
+            const wartoscPoziomSodu = data.PoziomSodu;
+            const cisnienie = data.CisnienieKrwi;
+            const wartoscHemoglobin = data.ostatnia_Hemoglobina;
+            const wartoscErytrocyty = data.ostatnia_Erytrocyty;
+            const wartoscostatnia_Leukocyty = data.ostatnia_Leukocyty;
+            const wartoscPlytki_Plytki_krwi = data.ostatnia_Plytki_krwi;
+
+
+
+
+
+
+
+            // Aktualizuj tekst elementów HTML
+            SaturacjaTlenem_div.textContent = SaturacjaTlenem.toString();
+            text_wartoscOddechu_div.textContent = wartoscOddechu.toString();
+            Puls_text.textContent = wartoscPuls.toString();
+            TemperaturaCiala_text.textContent = wartoscTemperaturaCiala.toString();
+            konsumpcja_tlenu_text.textContent = wartoscKonsumpcjaTlenu.toString();
+            PoziomSodu_text.textContent = wartoscPoziomSodu.toString();
+            cisnienie_text.textContent = cisnienie
+            poziom_potasu_text.textContent = wartoscPoziomPotasu.toString();
+            wartoscHemoglobin_text.textContent = wartoscHemoglobin.toString();
+            wartoscErytrocyty_text.textContent = wartoscErytrocyty.toString();
+            wartoscostatnia_Leukocyty_text.textContent = wartoscostatnia_Leukocyty.toString();
+            wartoscPlytki_Plytki_krwi_txt.textContent = wartoscPlytki_Plytki_krwi.toString();
+
+
+
+
+        } catch (error) {
+            console.error('Błąd:', error);
+        }
+    }
+
+        function refreshImage() {
+            var img = document.getElementById("myImage_wartosc_CzęstośćOddechu");
+            img.src = "/static/wartosc_CzestoscOddechu.png?" + new Date().getTime(); 
+    
+            var img = document.getElementById("myImage_lista_tworzenie_SaturacjaTlenem");
+            img.src = "/static/SaturacjaTlenem.png?" + new Date().getTime(); 
+
+            var img = document.getElementById("myImage_lista_Puls");
+            img.src = "/static/Puls.png?" + new Date().getTime(); 
+
+            var img = document.getElementById("myImage_TemperaturaCiala");
+            img.src = "/static/TemperaturaCiala.png?" + new Date().getTime(); 
+
+            var img = document.getElementById("myImage_TemperaturaCiala");
+            img.src = "/static/TemperaturaCiala.png?" + new Date().getTime(); 
+
+            var img = document.getElementById("myImage_PoziomPotasu");
+            img.src = "/static/PoziomPotasu.png?" + new Date().getTime(); 
+
+            var img = document.getElementById("myImage_konsumpcja_tlenu");
+            img.src = "/static/KonsumpcjaTlenu.png?" + new Date().getTime(); 
+
+            var img = document.getElementById("myImage_PoziomSodu");
+            img.src = "/static/PoziomSodu.png?" + new Date().getTime(); 
+
+            var img = document.getElementById("myImage_Hemoglobina");
+            img.src = "/static/Hemoglobina.png?" + new Date().getTime(); 
+
+            var img = document.getElementById("myImage_Erytrocyty");
+            img.src = "/static/Erytrocyty.png?" + new Date().getTime(); 
+
+            var img = document.getElementById("myImage_Leukocyty");
+            img.src = "/static/Leukocyty.png?" + new Date().getTime(); 
+
+            var img = document.getElementById("myImage_Plytki_krwi");
+            img.src = "/static/Plytki_krwi.png?" + new Date().getTime(); 
+
+
+
+
+            
+        }
+
+        window.onload = function() {
+            setInterval(fetchData, 2000);
+            setInterval(refreshImage, 2000);
+        };
+    </script>
+</head>
+<body>
+    
+    <h1>Imie pacjenta: {{username}}</h1>
+    <button onclick="hrefeDoListaPacjenci()" >Przycisk do listy z pacjentami</button>
+    <div id="wartosc_CzęstośćOddechu_Cointeiner">
+        <img id="myImage_wartosc_CzęstośćOddechu" src="static/wartosc_CzęstośćOddechu.png" alt="Obraz do odświeżania" width="500">
+        <p>Wartość oddechu:</p><p id="text_wartoscOddechu_div">X</p>
+    </div>
+
+
+    <div id="wartosc_CzęstośćOddechu_Cointeiner">
+        <img id="myImage_lista_tworzenie_SaturacjaTlenem" src="static/wartosc_CzęstośćOddechu.png" alt="Obraz do odświeżania" width="500">
+        <p>Wartość oddechu:</p><p id="SaturacjaTlenem_div">X</p>
+    </div>
+
+    <div id="wartosc_Puls">
+        <img id="myImage_lista_Puls" src="static/wartosc_Puls.png" alt="Obraz do odświeżania Pulsu" width="500">
+        <p>Wartość Puls:</p><p id="Puls_text">X</p>
+    </div>
+    <div id="wartosc_TemperaturaCiala">
+        <img id="myImage_TemperaturaCiala" src="static/TemperaturaCiala.png" alt="Obraz do odświeżania temperatury ciała" width="500">
+        <p>Wartość Temperatura ciała:</p><p id="TemperaturaCiala_text">X</p>
+    </div>
+
+    <div id="wartosc_poziom_potasu">
+        <img id="myImage_PoziomPotasu" src="static/PoziomPotasu.png" alt="Obraz do odświeżania potasu" width="500">
+        <p>Poziam potasu:</p><p id="poziom_potasu_text">X</p>
+    </div>
+
+
+    <div id="wartosc_konsumpcja_tlenu">
+        <img id="myImage_konsumpcja_tlenu" src="static/KonsumpcjaTlenu.png" alt="Obraz do odświeżania konsumpcji tlenu" width="500">
+        <p>Konsumpcja tlenu:</p><p id="konsumpcja_tlenu_text">X</p>
+    </div>
+
+    <div id="wartosc_PoziomSodu">
+        <img id="myImage_PoziomSodu" src="static/PoziomSodu.png" alt="Obraz do odświeżania konsumpcji tlenu" width="500">
+        <p>Poziom Sodu:</p><p id="PoziomSodu_text">X</p>
+    </div>
+
+    <div id="wartosc_cisnienie">
+        <p>Poziom cisnienie:</p><p id="cisnienie_text">X</p>
+    </div>
+
+
+
+    
+    <div id="morfologia_div_Cointener">
+        <h1>Morfologia</h1>
+        <div id="wartosc_Hemoglobina">
+            <img id="myImage_Hemoglobina" src="static/Hemoglobina.png" alt="Obraz do odświeżania konsumpcji tlenu" width="500">
+            <p>Poziom Hemoglobina:</p><p id="wartoscHemoglobin_text">X</p>
+        </div>
+        <div id="wartosc_Erytrocyty">
+            <img id="myImage_Erytrocyty" src="static/Erytrocyty.png" alt="Obraz do odświeżania konsumpcji tlenu" width="500">
+            <p>Poziom Erytrocyty:</p><p id="wartoscErytrocyty_text">X</p>
+        </div>
+    
+        <div id="wartosc_Leukocyty">
+            <img id="myImage_Leukocyty" src="static/Leukocyty.png" alt="Obraz do odświeżania konsumpcji tlenu" width="500">
+            <p>Poziom Leukocyty:</p><p id="wartoscostatnia_Leukocyty_text">X</p>
+        </div>
+    
+        <div id="wartosc_Plytki_krwi">
+            <img id="myImage_Plytki_krwi" src="static/Plytki_krwi.png" alt="Obraz do odświeżania konsumpcji tlenu" width="500">
+            <p>Płytki krwi:</p><p id="wartoscPlytki_Plytki_krwi_txt">X</p>
+        </div>
+    
+    
+    </div>
+    <button onclick="hrefeDoListaPacjenci()" >Przycisk do listy z pacjentami</button>
+
+</body>
+</html>
