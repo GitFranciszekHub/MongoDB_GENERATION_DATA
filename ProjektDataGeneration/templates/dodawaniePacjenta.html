@@ -44,7 +44,17 @@
         } else {
             console.error("Błąd podczas wysyłania danych");
         }
-    }
+    };
+
+    async function doMenu(){
+        window.location.href = "/"
+    };
+
+    async function doPacjentow(){
+        window.location.href = "/listaPacjenci/"
+    };
+    
+    
     </script>    
 </head>
 
@@ -76,6 +86,8 @@
         <input type="text" id="lekarz" name="lekarz" placeholder="Dr.namesurname">
         
         <button onclick="wyslijDane()" type="submit">Wyślij</button>
+        <button type="button" onclick="doMenu()"> Menu</button>
+        <button type="button" onclick="doPacjentow()"> Pacjenci</button>
 
     </form>
 
