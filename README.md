@@ -8,7 +8,7 @@ Jest to zainspirowana GE Healthcare platforma, mająca na celu formatowanie dany
 <hr>
 
 Kod źródłowy jest napisany przy użyciu języka programowania Python wersji Python 3.12.9.
-Biblioteki, moduły które zostały użyte w projekcie:<br>-pymongo 4.10.1<br>-matplotlib 3.10.0<br>-Flask 3.0.3<br><br>Aplikacja webowa jest także połączona z wieloma plikami HTML, CSS, czy JS.  
+Biblioteki, moduły które zostały użyte w projekcie:<br>-pymongo 4.10.1<br>-matplotlib 3.10.0<br>-Flask 3.0.3<br>i kilka innych<br>Aplikacja webowa jest także połączona z wieloma plikami HTML, CSS, czy JS.  
 
    
 
