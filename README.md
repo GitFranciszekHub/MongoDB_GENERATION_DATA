@@ -1,7 +1,16 @@
 # MongoDB_GENERATION_DATA
 Jest to zainspirowana GE Healthcare platforma, mająca na celu formatowanie danych pobieranych z urządzeń medycznych Iot, tak aby użytkownicy mogli mieć dostęp do informacji niezależnie od miejsca, w którym się znajdują.
 
+ 1. Język programowania kodu źródłowego.
+ 2. Cel i zadania programu i aplikacji.
+ 3. Uruchamianie programu i aplikacji.
 
+<hl>
+
+1. Kod źródłowy jest napisany przy użyciu języka programowania Python wersji 
+
+
+ 
 Funkcjonalności:
 -Pobieranie danych w czasie rzeczywistym
 -Generowanie wykresów w czasie rzeczywistym
