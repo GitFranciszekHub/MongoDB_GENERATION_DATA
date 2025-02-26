@@ -7,7 +7,7 @@ Jest to zainspirowana GE Healthcare platforma, mająca na celu formatowanie dany
  3. Uruchamianie programu i aplikacji.
 <hr>
 
-<h4>Kod źródłowy:</h4> został napisany w języku programowania Python w wersji 3.12.9.
+<b>Kod źródłowy:</b> został napisany w języku programowania Python w wersji 3.12.9.
 Biblioteki i moduły użyte w projekcie: pymongo 4.10.1, matplotlib 3.10.0, Flask 3.0.3 oraz kilka innych.<br>
 Aplikacja webowa jest również połączona z wieloma plikami HTML, CSS i JavaScript.
 
