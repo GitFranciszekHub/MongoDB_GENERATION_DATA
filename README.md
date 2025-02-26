@@ -27,7 +27,7 @@ Aplikacja webowa jest również połączona z wieloma plikami HTML, CSS i JavaSc
 -Umożliwienie użytkownikowi wygodnego poruszania się po aplikacji i jej komponentach.<br><br>
 -Umożliwienie użytkownikowi zapoznania się z danymi, odbieranie ich w czasie rzeczywistym oraz filtrowanie.<br><br>
 -Pobieranie od użytkownika danych pacjentów i wysyłanie ich do programu symulującego dane.<br><br>
--Informowanie za pomocą pliku JSON programu tworzącego wykresy, dla którego pacjenta powinien on tworzyć wykresy, oraz przekazywanie danych numerycznych.
+-Informowanie za pomocą pliku JSON programu tworzącego wykresy, dla którego pacjenta powinien on tworzyć wykresy, oraz przekazywanie danych numerycznych.<br>
 <b>Zadaniami progrmu generującego wykresy medyczne:</b><br><br>
 -Pobieranie  w czasie rzeczywistym danych (dla pacjenta wybranego przez użytkowika w aplikacji webowej)z bazy danych MongoDb.<br><br>
 -generowanie przy użyciu matplotlib wykresów w czasie rzeczywistym.
