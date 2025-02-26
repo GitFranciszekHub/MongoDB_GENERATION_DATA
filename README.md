@@ -5,7 +5,7 @@ Jest to zainspirowana GE Healthcare platforma, mająca na celu formatowanie dany
  2. Cel i zadania programu i aplikacji.
  3. Uruchamianie programu i aplikacji.
 
-<hl>
+<hr>
 
 1. Kod źródłowy jest napisany przy użyciu języka programowania Python wersji 
 
