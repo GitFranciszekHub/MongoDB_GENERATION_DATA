@@ -14,8 +14,17 @@ Aplikacja webowa jest również połączona z wieloma plikami HTML, CSS i JavaSc
 <b>2. Projekt jest podzielony na trzy części.<b><br><br>
 &nbsp;&nbsp;&nbsp;&nbsp;1.Program symulujący dane medyczne  (plik dane_kliniczne_pacjentow.py).<br>
 &nbsp;&nbsp;&nbsp;&nbsp;2.Aplikacjia webowa (plik appN.py).<br>
-&nbsp;&nbsp;&nbsp;&nbsp;3.Program generujący wykresy medyczne i pobierający wcześniej symulowane dane z nierelacyjnej bazy danych MongoDB (plik main.py).
- 
+&nbsp;&nbsp;&nbsp;&nbsp;3.Program generujący wykresy medyczne (plik main.py).<br><br>
+<b>Zadaniami aplikacji webowej:<b><br>
+ zapewnienie czytelności poprzez stworzenie odpowiednio przystosowanej 
+warstwy wizualnej (HTML, CSS). <br>
+umożliwienie użytkownikowi na wygodne „poruszanie się” po aplikacji i jej 
+komponentach.<br>
+umożliwienie użytkownikowi zapoznania się z danymi, odbieraniem w czasie rzeczywistym i ich filtrowaniem.<br>
+Pobieraniem od użytkownika danych pacjentów i wysyłanie ich do programu symulującego dane.<br>
+
+
+
 Funkcjonalności:
 -Pobieranie danych w czasie rzeczywistym
 -Generowanie wykresów w czasie rzeczywistym
