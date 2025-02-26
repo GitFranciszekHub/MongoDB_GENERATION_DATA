@@ -12,7 +12,7 @@ Biblioteki i moduły użyte w projekcie: pymongo 4.10.1, matplotlib 3.10.0, Flas
 Aplikacja webowa jest również połączona z wieloma plikami HTML, CSS i JavaScript.
 <br><br>
 <b>2. Projekt jest podzielony na trzy części.<b><br><br>
-    &nbsp;  1.
+&nbsp;&nbsp;&nbsp;&nbsp;1.
 
 
  
