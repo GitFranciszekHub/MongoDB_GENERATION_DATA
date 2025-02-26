@@ -11,8 +11,8 @@ Jest to zainspirowana GE Healthcare platforma, mająca na celu formatowanie dany
 Biblioteki i moduły użyte w projekcie: pymongo 4.10.1, matplotlib 3.10.0, Flask 3.0.3 oraz kilka innych.<br>
 Aplikacja webowa jest również połączona z wieloma plikami HTML, CSS i JavaScript.
 <br><br>
-<b>2. Projekt jest podzielony na trzy części.<b><br>
-      1.
+<b>2. Projekt jest podzielony na trzy części.<b><br><br>
+    &nbsp;  1.
 
 
  
