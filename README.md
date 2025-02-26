@@ -36,10 +36,6 @@ Aplikacja webowa jest również połączona z wieloma plikami HTML, CSS i JavaSc
 
 
 <b>Uruchomienie:</b>
-Należy wpisać w konsole: 
--python dane_kliniczne_pacjentow.py, aby zacząć generewać dane i wysyłać do MongoDB.
--python main.py, aby zacząć pobierać dane z Mongodb, zapisywać je  w odpowiednich json i tworzyć wykresy matplotlib.
--python appN.py, aby uruchomić serwer flask i kierować danymi.
-
-
+1. Przejdź na oficjalną stronę MongoDB: https://www.mongodb.com/try/download/community.
+Kieruj się instrukcjami na stronie 
 
