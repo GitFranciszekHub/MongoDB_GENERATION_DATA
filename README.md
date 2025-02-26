@@ -7,11 +7,11 @@ Jest to zainspirowana GE Healthcare platforma, mająca na celu formatowanie dany
  3. Uruchamianie programu i aplikacji.
 <hr>
 
-<b>Kod źródłowy</b> został napisany w języku programowania Python w wersji 3.12.9.
+<b>1. Kod źródłowy</b> został napisany w języku programowania Python w wersji 3.12.9.
 Biblioteki i moduły użyte w projekcie: pymongo 4.10.1, matplotlib 3.10.0, Flask 3.0.3 oraz kilka innych.<br>
 Aplikacja webowa jest również połączona z wieloma plikami HTML, CSS i JavaScript.
-
-   
+<br><br>
+<b>2. Projekt jest podzielony na trzy częśći.<b>
 
 
  
@@ -23,12 +23,7 @@ Funkcjonalności:
 -Symulacja danych dla każdego z urządzeń
 -przechowywanie informacji o pacjentach 
 
-Technologie:
--Python 3.12.9
--MongoDB
--Matplotlib
--flask
--json
+
 
 
 Uruchomienie:
