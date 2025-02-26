@@ -12,8 +12,8 @@ Biblioteki i moduły użyte w projekcie: pymongo 4.10.1, matplotlib 3.10.0, Flas
 Aplikacja webowa jest również połączona z wieloma plikami HTML, CSS i JavaScript.
 <br><br>
 <b>2. Projekt jest podzielony na trzy części.<b><br><br>
-&nbsp;&nbsp;&nbsp;&nbsp;1.Program symulujący dane medyczne  (plik dane_kliniczne_pacjentow.py)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;2.Aplikacjia webowa (plik appN.py)
+&nbsp;&nbsp;&nbsp;&nbsp;1.Program symulujący dane medyczne  (plik dane_kliniczne_pacjentow.py).<br>
+&nbsp;&nbsp;&nbsp;&nbsp;2.Aplikacjia webowa (plik appN.py).<br>
 &nbsp;&nbsp;&nbsp;&nbsp;3.Program generujący wykresy medyczne i pobierający wcześniej symulowane dane z nierelacyjnej bazy danych MongoDB (plik main.py).
  
 Funkcjonalności:
