@@ -1,5 +1,6 @@
 # MongoDB_GENERATION_DATA
 Jest to zainspirowana GE Healthcare platforma, mająca na celu formatowanie danych pobieranych z urządzeń medycznych Iot, tak aby użytkownicy mogli mieć dostęp do informacji niezależnie od miejsca, w którym się znajdują.<br>
+<hr>
 LINK DO INSPIRACJI:
 https://www.mongodb.com/blog/post/connected-devices-ge-healthcare-uses-mongodb-manage-iot-device-lifecycle
 <hr>
@@ -16,14 +17,21 @@ Aplikacja webowa jest również połączona z wieloma plikami HTML, CSS i JavaSc
 &nbsp;&nbsp;&nbsp;&nbsp;1.Program symulujący dane medyczne  (plik dane_kliniczne_pacjentow.py).<br>
 &nbsp;&nbsp;&nbsp;&nbsp;2.Aplikacjia webowa (plik appN.py).<br>
 &nbsp;&nbsp;&nbsp;&nbsp;3.Program generujący wykresy medyczne (plik main.py).<br><br>
+<b>Zadaniama programu symulującego danymi:<b><br><br>
+-Generowanie danych o wartościach zbliżonych do rzeczywistych.<br><br>
+-Generowanie danych dla każdego pacjenta.<br><br>
+-Zapisywanie wygenerowanych danych.<br><br>
+-Wysyłanie wygenerowanych danych do pliku JSON w celu przekazania ich do programu generującego wykresy medyczne.<br><br>
 <b>Zadaniami aplikacji webowej:<b><br>
 -Zapewnienie czytelności poprzez stworzenie odpowiednio przystosowanej warstwy wizualnej (HTML, CSS). <br><br>
 -Umożliwienie użytkownikowi wygodnego poruszania się po aplikacji i jej komponentach.<br><br>
 -Umożliwienie użytkownikowi zapoznania się z danymi, odbieranie ich w czasie rzeczywistym oraz filtrowanie.<br><br>
 -Pobieranie od użytkownika danych pacjentów i wysyłanie ich do programu symulującego dane.<br><br>
 -Informowanie za pomocą pliku JSON programu tworzącego wykresy, dla którego pacjenta powinien on tworzyć wykresy, oraz przekazywanie danych numerycznych.
-
-
+<b>Zadaniami progrmu generującego wykresy medyczne:<b><br><br>
+-Pobieranie  w czasie rzeczywistym danych (dla pacjenta wybranego przez użytkowika w aplikacji webowej)z bazy danych MongoDb.<br><br>
+-generowanie przy użyciu matplotlib wykresów w czasie rzeczywistym.
+-przesyłanie do aplikacji webowej danych numerycznych dla wybranego pacjenta i wykresów w czasie rzeczywistym 
 
 Funkcjonalności:
 -Pobieranie danych w czasie rzeczywistym
