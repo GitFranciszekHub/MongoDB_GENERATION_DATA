@@ -13,16 +13,16 @@ https://www.mongodb.com/blog/post/connected-devices-ge-healthcare-uses-mongodb-m
 Biblioteki i moduły użyte w projekcie: pymongo 4.10.1, matplotlib 3.10.0, Flask 3.0.3 oraz kilka innych.<br>
 Aplikacja webowa jest również połączona z wieloma plikami HTML, CSS i JavaScript.
 <br><br>
-<b>2. Projekt jest podzielony na trzy części.<b><br><br>
+<b>2. Projekt jest podzielony na trzy części.</b><br><br>
 &nbsp;&nbsp;&nbsp;&nbsp;1.Program symulujący dane medyczne  (plik dane_kliniczne_pacjentow.py).<br>
 &nbsp;&nbsp;&nbsp;&nbsp;2.Aplikacjia webowa (plik appN.py).<br>
 &nbsp;&nbsp;&nbsp;&nbsp;3.Program generujący wykresy medyczne (plik main.py).<br><br>
-<b>Zadaniama programu symulującego danymi:<b><br><br>
+<b>Zadaniama programu symulującego danymi:</b><br><br>
 -Generowanie danych o wartościach zbliżonych do rzeczywistych.<br><br>
 -Generowanie danych dla każdego pacjenta.<br><br>
 -Zapisywanie wygenerowanych danych.<br><br>
 -Wysyłanie wygenerowanych danych do pliku JSON w celu przekazania ich do programu generującego wykresy medyczne.<br><br>
-<b>Zadaniami aplikacji webowej:<b><br>
+<b>Zadaniami aplikacji webowej:</b><br>
 -Zapewnienie czytelności poprzez stworzenie odpowiednio przystosowanej warstwy wizualnej (HTML, CSS). <br><br>
 -Umożliwienie użytkownikowi wygodnego poruszania się po aplikacji i jej komponentach.<br><br>
 -Umożliwienie użytkownikowi zapoznania się z danymi, odbieranie ich w czasie rzeczywistym oraz filtrowanie.<br><br>
