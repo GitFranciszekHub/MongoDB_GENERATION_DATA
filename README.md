@@ -2,8 +2,8 @@
 Jest to zainspirowana GE Healthcare platforma, mająca na celu formatowanie danych pobieranych z urządzeń medycznych Iot, tak aby użytkownicy mogli mieć dostęp do informacji niezależnie od miejsca, w którym się znajdują.
 
 <hr>
- 1. Język programowania kodu źródłowego.
- 2. Cel i zadania programu i aplikacji.
+ 1. Język programowania kodu źródłowego.<br>
+ 2. Cel i zadania programu i aplikacji.<br>
  3. Uruchamianie programu i aplikacji.
 <hr>
 
