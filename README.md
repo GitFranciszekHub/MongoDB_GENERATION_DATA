@@ -16,12 +16,12 @@ Aplikacja webowa jest również połączona z wieloma plikami HTML, CSS i JavaSc
 &nbsp;&nbsp;&nbsp;&nbsp;2.Aplikacjia webowa (plik appN.py).<br>
 &nbsp;&nbsp;&nbsp;&nbsp;3.Program generujący wykresy medyczne (plik main.py).<br><br>
 <b>Zadaniami aplikacji webowej:<b><br>
- zapewnienie czytelności poprzez stworzenie odpowiednio przystosowanej 
-warstwy wizualnej (HTML, CSS). <br>
-umożliwienie użytkownikowi na wygodne „poruszanie się” po aplikacji i jej 
-komponentach.<br>
-umożliwienie użytkownikowi zapoznania się z danymi, odbieraniem w czasie rzeczywistym i ich filtrowaniem.<br>
-Pobieraniem od użytkownika danych pacjentów i wysyłanie ich do programu symulującego dane.<br>
+-zapewnienie czytelności poprzez stworzenie odpowiednio przystosowanej 
+warstwy wizualnej (HTML, CSS). <br><br>
+-umożliwienie użytkownikowi na wygodne „poruszanie się” po aplikacji i jej 
+komponentach.<br><br>
+-umożliwienie użytkownikowi zapoznania się z danymi, odbieraniem w czasie rzeczywistym i ich filtrowaniem.<br><br>
+-Pobieraniem od użytkownika danych pacjentów i wysyłanie ich do programu symulującego dane.<br><br>
 
 
 
