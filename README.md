@@ -37,14 +37,14 @@ Aplikacja webowa jest również połączona z wieloma plikami HTML, CSS i JavaSc
 
 <b>Uruchomienie:</b>
 1. Przejdź na oficjalną stronę MongoDB: https://www.mongodb.com/try/download/community.
-Kieruj się instrukcjami na stronie <br>
+Kieruj się instrukcjami na stronie <br><br>
 2. Uruchamianie symulowania danych.<br>
  otworzyć nowy wiersz poleceń,<br - przejść do ścieżki projektu np. ‘C:\Pulpit\jobmeup\project’, <br- zakładając, że użytkownik posiada zainstalowanego Pythona z 
 wersją   3.12.9 lub nowszą: 
 &nbsp;&nbsp;&nbsp;&nbsp;> wpisać ‘python dane_kliniczne_pacjentow.py’. 
 &nbsp;&nbsp;&nbsp;&nbsp;> w razie braku Pythona, należy odwiedzić główną stronę 
 https://www.python.org/ pobrać wspomianą wersję i dodać 
-Python do ścieżki środowiskowej PATH.<br>
+Python do ścieżki środowiskowej PATH.<br><br>
 3. Uruchamianie tworzenia wykresów danych.<br>
  otworzyć nowy wiersz poleceń,<br> - przejść do ścieżki projektu np. ‘C:\Pulpit\jobmeup\project’,<br> - zakładając, że użytkownik posiada zainstalowanego Pythona z 
 wersją   3.12.9 lub nowszą: 
