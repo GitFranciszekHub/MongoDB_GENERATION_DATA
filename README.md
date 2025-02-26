@@ -1,6 +1,7 @@
 # MongoDB_GENERATION_DATA
-Jest to zainspirowana GE Healthcare platforma, mająca na celu formatowanie danych pobieranych z urządzeń medycznych Iot, tak aby użytkownicy mogli mieć dostęp do informacji niezależnie od miejsca, w którym się znajdują.
-
+Jest to zainspirowana GE Healthcare platforma, mająca na celu formatowanie danych pobieranych z urządzeń medycznych Iot, tak aby użytkownicy mogli mieć dostęp do informacji niezależnie od miejsca, w którym się znajdują.<br>
+LINK DO INSPIRACJI:
+https://www.mongodb.com/blog/post/connected-devices-ge-healthcare-uses-mongodb-manage-iot-device-lifecycle
 <hr>
  1. Język programowania kodu źródłowego.<br>
  2. Cel i zadania programu i aplikacji.<br>
@@ -42,5 +43,4 @@ Należy wpisać w konsole:
 -python appN.py, aby uruchomić serwer flask i kierować danymi.
 
 
-LINK DO INSPIRACJI:
-https://www.mongodb.com/blog/post/connected-devices-ge-healthcare-uses-mongodb-manage-iot-device-lifecycle
+
