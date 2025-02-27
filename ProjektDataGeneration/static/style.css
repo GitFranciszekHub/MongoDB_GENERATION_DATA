@@ -1,0 +1,84 @@
+.div_cointerner_img {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 10px; 
+    padding: 20px;
+}
+
+.grid-item img {
+    width: 100%; 
+    height: auto;
+    display: block;
+    border-radius: 10px; 
+}
+
+.grid-item img:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 4px 15px rgba(246, 246, 246, 0.3);
+
+}
+
+body{
+    background-color: rgb(233, 232, 232);
+    text-align: center;
+    font-family: Arial, sans-serif;
+
+}
+
+.div_cointerner_img_morfologia {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 10px; 
+    padding: 20px;
+}
+
+.grid-item-morfologia img {
+    width: 100%; 
+    height: auto;
+    display: block;
+    border-radius: 10px; 
+}
+
+.grid-item-morfologia img:hover {
+    transform: scale(1.1); 
+}
+
+button {
+    background-color: #cb2d96; 
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 10px;
+  }
+
+button:hover{
+    scale: 1.05;
+}
+
+h1{
+    text-align: center
+}
+#przyciskKosz{
+    font-size: 15px;
+}
+#menuButton {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;}
+
+label {
+        display: block;
+        margin-top: 10px;
+        font-weight: bold;}
+
+input {
+            width: 25%;
+            padding: 8px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 4px;}
